@@ -9,3 +9,7 @@ body {
     height: 200px; 
     position: absolute; 
 }
+
+p {
+    display: inline-block;
+}
