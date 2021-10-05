@@ -1,0 +1,11 @@
+body {
+    /* background-color: wheat; */
+    margin: 0;
+    padding: 0; 
+}
+
+#octo {
+    width: 200px;
+    height: 200px; 
+    position: absolute; 
+}
