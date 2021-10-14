@@ -1,6 +1,7 @@
 body {
     /* background-color: wheat; */
-    background-image: url('../images/under-sea-1.png');
+    background-image: url('../images/under-sea-4.jpg');
+    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -8,11 +9,7 @@ body {
     color: white;  
 }
 
-main {
-    
-    /* background-position-x:right; */
-    /* background-size: cover; */
-}
+
 
 
 #octo {
@@ -22,7 +19,7 @@ main {
 }
 h1 {
     margin-left: 1rem;
-    color: orangered;
+    color: gold;
 }
 
 p {
@@ -30,6 +27,7 @@ p {
     padding-left: 1rem; 
     /* border: 2px solid gold;  */
     font-size: 1.8rem;
+    /* color: gold; */
 }
 
 #distract {
@@ -38,6 +36,4 @@ p {
     float: right;
 }
 
- p {
-    
-}
+ 

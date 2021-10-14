@@ -12,36 +12,22 @@ let score = 0;
 let timeElapsed = 0;
 disctractOcto.style.visibility='hidden'; 
 
-// let easyLevel = document.querySelector("#easy");
-// let mediumLevel = document.querySelector("#medium");
-// let fastLevel = document.querySelector("#fast"); 
 
-
-// function selectLevel() {
-//     let timer = window.setInterval(moveOcto, 1500);
-
-//     if (mediumLevel.value === "medium") {
-//         timer = window.setInterval(moveOcto, 500);
-//     } else if (fastLevel.value === "fast") {
-//         timer = window.setInterval(moveOcto, 100);
-//     } else {
-//         return timer; 
-//     }
-// }
-
-// fastLevel.addEventListener("click", selectLevel);
-// mediumLevel.addEventListener("click", selectLevel ); 
 
 
 scoreText.innerText = "0";
 secondsGone.innerText = "0"; 
 
-
+function caughtOcto() {    
+    score = score + 1 ;
+    scoreText.innerText =  score; 
+    console.log(score); 
+}
 
 function moveOcto() {
     timeElapsed = timeElapsed + 1; 
-    octo.style.left = Math.ceil( Math.random()*1000)+"px";
-    octo.style.top = Math.random()*800 + "px";
+    octo.style.left = Math.ceil(Math.random()*1000)+"px";
+    octo.style.top = Math.ceil(Math.random()*800) + "px";
     secondsGone.innerText = timeElapsed;
 
     if (timeElapsed >15 && timeElapsed <18 ) {
@@ -58,11 +44,7 @@ function moveOcto() {
     
 }
 
-function caughtOcto() {    
-    score = score + 1 ;
-    scoreText.innerText =  score; 
-    console.log(score); 
-}
+
 
 
 
