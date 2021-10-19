@@ -1,6 +1,6 @@
 # Octopus Catcher
 
-## Abouht the game
+## About the game
 1. Inspired from Max Wainewright
 2. This is a game suitable for kids from ages 4 to 9, however, anyone who is interested can play 
 3. Considering that the octopus needs space on screen to run around, this game is recommended for laptops, desktops or bigger moniotrs. 
